@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
+# Você foi designado(a) para persistir dados da sua aplicação client do Spotify em um banco de dados com Python usando o ORM (Object-Relational Mapping) SQLAlchemy. Além disso, você deverá criar uma aplicação para inserir dados recebidos das suas requisições no Spotify e, também, um endpoint para visualizar esses dados persistidos em banco de dados.
+
+# Obs: Você poderá julgar como necessário o armazenamento desses dados. Só deixe explícito qual regra seguiu em um arquivo README.
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'EXEMPLO.db'  
 db = SQLAlchemy(app)

@@ -1,5 +1,9 @@
 import pytest
 
+# Enunciado
+
+# Você foi designado(a) para realizar testes unitários em Python utilizando Pytest em métodos de string de uma aplicação do cenário a seguir: Link
+
 from testar import (inverter_string, contar_vogais, contar_palavras, eh_palindromo, 
                     maiusculas, minusculas, contar_caracter, concatenar_strings, 
                     substituir_caracter, inverter_palavras)
